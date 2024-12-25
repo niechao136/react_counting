@@ -5,51 +5,26 @@
  * @format
  */
 
-import React from 'react';
-import {
-  SafeAreaView,
-  ScrollView,
-  StatusBar,
-  Text,
-  useColorScheme,
-  View,
-} from 'react-native';
-
-import {
-  Colors,
-  Header,
-} from 'react-native/Libraries/NewAppScreen';
-
-import { str } from '@/test';
+import * as React from 'react';
+import { useState } from 'react';
+import { ActivityIndicator } from 'react-native';
+import { NavigationContainer } from '@react-navigation/native';
+import { RouteStack } from '@/config';
+import { loading$ } from '@/stores';
 
 
-function App(): React.JSX.Element {
-  const isDarkMode = useColorScheme() === 'dark';
-
-  const backgroundStyle = {
-    backgroundColor: isDarkMode ? Colors.darker : Colors.lighter,
-  };
-
+function App() {
+  const [loading, setLoading] = useState(false);
+  loading$.subscribe({
+    next: value => {
+      setLoading(value.length > 0);
+    },
+  });
   return (
-    <SafeAreaView style={backgroundStyle}>
-      <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
-        backgroundColor={backgroundStyle.backgroundColor}
-      />
-      <ScrollView
-        contentInsetAdjustmentBehavior="automatic"
-        style={backgroundStyle}>
-        <Header />
-        <View
-          style={{
-            backgroundColor: isDarkMode ? Colors.black : Colors.white,
-          }}>
-          <Text style={{
-            color: isDarkMode ? Colors.white : Colors.black,
-          }}>Hello, {str}</Text>
-        </View>
-      </ScrollView>
-    </SafeAreaView>
+    <NavigationContainer>
+      <ActivityIndicator animating={loading} size={'large'}/>
+      <RouteStack/>
+    </NavigationContainer>
   );
 }
 

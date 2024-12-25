@@ -1,4 +1,9 @@
 {
-  "name": "react_counting",
-  "displayName": "react_counting"
+  "expo": {
+    "experiments": {
+      "tsconfigPaths": true
+    },
+    "name": "react_counting",
+    "slug": "react_counting"
+  }
 }
