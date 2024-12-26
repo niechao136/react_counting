@@ -2,12 +2,12 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 
-function Login() {
+function CountingUnit() {
   return (
     <View>
-      <Text>Login Page</Text>
+      <Text>Counting Unit</Text>
     </View>
   );
 }
 
-export default Login;
+export default CountingUnit;

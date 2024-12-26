@@ -2,12 +2,12 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 
-function Login() {
+function QueuingUnit() {
   return (
     <View>
-      <Text>Login Page</Text>
+      <Text>Queuing Unit</Text>
     </View>
   );
 }
 
-export default Login;
+export default QueuingUnit;

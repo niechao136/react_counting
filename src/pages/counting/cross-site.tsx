@@ -2,12 +2,12 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 
-function Login() {
+function CrossSite() {
   return (
     <View>
-      <Text>Login Page</Text>
+      <Text>Data Analysis</Text>
     </View>
   );
 }
 
-export default Login;
+export default CrossSite;

@@ -5,8 +5,7 @@
  * @format
  */
 
-import * as React from 'react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { ActivityIndicator } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { RouteStack } from '@/config';

@@ -2,12 +2,12 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 
-function Login() {
+function KPIReview() {
   return (
     <View>
-      <Text>Login Page</Text>
+      <Text>KPI Review</Text>
     </View>
   );
 }
 
-export default Login;
+export default KPIReview;

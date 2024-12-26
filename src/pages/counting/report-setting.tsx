@@ -2,12 +2,12 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 
-function Login() {
+function ReportSetting() {
   return (
     <View>
-      <Text>Login Page</Text>
+      <Text>Report Setting</Text>
     </View>
   );
 }
 
-export default Login;
+export default ReportSetting;

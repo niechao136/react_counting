@@ -2,12 +2,12 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 
-function Login() {
+function Notify() {
   return (
     <View>
-      <Text>Login Page</Text>
+      <Text>Notify</Text>
     </View>
   );
 }
 
-export default Login;
+export default Notify;

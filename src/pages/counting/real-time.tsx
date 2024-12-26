@@ -2,12 +2,12 @@ import React from 'react';
 import { View, Text } from 'react-native';
 
 
-function Login() {
+function RealTime() {
   return (
     <View>
-      <Text>Login Page</Text>
+      <Text>Real Time</Text>
     </View>
   );
 }
 
-export default Login;
+export default RealTime;
