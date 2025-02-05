@@ -3,6 +3,7 @@ import { View, Text, TextInput, StyleSheet, ImageBackground, Dimensions, Touchab
 import CheckBox from 'react-native-bouncy-checkbox';
 import { startLoading, stopLoading } from '@/stores';
 import { button, colors, login } from '@/styles';
+import { AicsButton } from '@/components/button';
 import { AicsCheckbox } from '@/components/checkbox';
 
 
@@ -64,10 +65,19 @@ function Login() {
               text={'Remember me'}
               onPress={() => setRemember(!remember)}
             />
+            <AicsButton
+              mode={'text'}
+              text={'Forget Password'}
+            />
           </View>
           <TouchableOpacity onPress={Click} style={[button.base, button.primary]}>
             <Text style={[button.big, button.primary]}>Login</Text>
           </TouchableOpacity>
+          <AicsButton
+            size={'big'}
+            text={'Login'}
+            onPress={Click}
+          />
         </View>
         <View style={styles.footer} />
 

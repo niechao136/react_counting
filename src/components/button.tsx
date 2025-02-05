@@ -10,7 +10,7 @@ interface ButtonProps {
   disabled?: boolean;
   prefix?: React.ReactNode;
   suffix?: React.ReactNode;
-  onPress?: () => void;
+  onPress?: (() => void) | undefined;
 }
 
 export function AicsButton(
@@ -19,12 +19,12 @@ export function AicsButton(
     mode = 'filled',
     size = 'middle',
     type = 'primary',
-    onPress = () => {},
+    onPress = undefined,
   }: ButtonProps
 ) {
   return (
-    <TouchableOpacity onPress={() => onPress} style={[button.base, button.primary]}>
-      <Text style={[button[size], button[mode]]}>Login</Text>
+    <TouchableOpacity onPress={onPress} style={[button.base, button[type], button[mode]]}>
+      <Text style={[button[size], button[mode]]}>{text}</Text>
     </TouchableOpacity>
   );
 }
