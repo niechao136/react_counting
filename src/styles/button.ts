@@ -7,6 +7,11 @@ export const button = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
+  text_base: {
+    width: '100%',
+    textAlign: 'center',
+    fontWeight: 400,
+  },
   small: {
     fontSize: 12,
     lineHeight: 24,
@@ -33,7 +38,6 @@ export const button = StyleSheet.create({
     borderWidth: undefined,
     borderStyle: undefined,
     borderColor: undefined,
-    padding: undefined,
   },
   outline: {
     color: undefined,
@@ -41,15 +45,14 @@ export const button = StyleSheet.create({
     borderWidth: 1,
     borderStyle: 'solid',
     borderColor: undefined,
-    padding: undefined,
   },
   text: {
-    color: undefined,
     backgroundColor: colors.transparent,
     borderWidth: undefined,
     borderStyle: undefined,
-    borderColor: colors.transparent,
-    padding: 0,
+    borderColor: undefined,
+    paddingLeft: 0,
+    paddingRight: 0,
   },
   primary: {
     backgroundColor: colors.primary_600,

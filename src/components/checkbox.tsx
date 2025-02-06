@@ -31,7 +31,7 @@ export function AicsCheckbox(
     text = '',
     isDash = false,
     useDash = false,
-    fontBold = true,
+    fontBold = false,
     onPress,
     onDash = () => {},
   }: CheckBoxProps) {

@@ -3,6 +3,9 @@ import { colors } from './color';
 import { width, height } from './length';
 
 export const login = StyleSheet.create({
+  login: {
+    flex: 1,
+  },
   bg: {
     width,
     height,
@@ -71,5 +74,8 @@ export const login = StyleSheet.create({
     fontWeight: '400',
     lineHeight: 24,
     height: 24,
+  },
+  footer: {
+
   },
 });

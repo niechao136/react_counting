@@ -1,0 +1,22 @@
+{
+  "login": {
+    "welcome": "欢迎使用",
+    "title": "iService Cloud Platform",
+    "remember": "记住账号",
+    "forgot": "忘记密码",
+    "login": "登 入",
+    "email": "用户邮箱，如example@gmail.com",
+    "password": "密码",
+    "failed": "登入失败，用户已停用",
+    "deactivated": "登入失败，请确认信箱及密码",
+    "forget": "请输入您的电子邮箱以重设密码",
+    "sent": "发送成功",
+    "error": "发送错误",
+    "not_found": "系统中找不到电子邮箱：{0}",
+    "check": "请检查您的电子邮件，并依照步骤重置密码。",
+    "try_again": "找回密码失败，请重新尝试。",
+    "forgot_email": "用户邮箱",
+    "not_enter": "用户邮箱不能为空或空格",
+    "not_exist": "该用户信箱不存在"
+  }
+}

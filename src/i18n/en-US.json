@@ -1,0 +1,22 @@
+{
+  "login": {
+    "welcome": "Welcome",
+    "title": "iService Cloud Platform",
+    "remember": "Remember",
+    "forgot": "Forgot",
+    "login": "Sign In",
+    "email": "Email, such as example@gmail.com",
+    "password": "Password",
+    "failed": "Login failed, Please check email and password.",
+    "deactivated": "Login failed, user has been deactivated.",
+    "forget": "Please enter your email to reset password",
+    "sent": "Sent!",
+    "error": "Error!",
+    "not_found": "Can not find email: {0}",
+    "check": "Sent! please follow the steps to reset password.",
+    "try_again": "Failed to retrieve password, please try again.",
+    "forgot_email": "Email",
+    "not_enter": "Email can't be empty or blank",
+    "not_exist": "Email does not exist"
+  }
+}

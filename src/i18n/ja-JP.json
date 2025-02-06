@@ -1,0 +1,22 @@
+{
+  "login": {
+    "welcome": "ようこそ",
+    "title": "iService Cloud Platform",
+    "remember": "覚えて",
+    "forgot": "忘れた",
+    "login": "サインイン",
+    "email": "メール入力例 example@gmail.com",
+    "password": "パスワード",
+    "failed": "ログインできません。ユーザーが非アクティブ化されています",
+    "deactivated": "ログインできません。メールアドレスとパスワードを確認してください",
+    "forget": "メールアドレスを入力し、パスワードの再設定を行って下さい",
+    "sent": "送信済",
+    "error": "送信エラー",
+    "not_found": "メールアドレスが見つかりません {0}",
+    "check": "メールを確認し、パスワードを再設定して下さい。",
+    "try_again": "パスワードを回復できませんでした。再度お試しください。",
+    "forgot_email": "ユーザーメール",
+    "not_enter": "メールは空白にできません",
+    "not_exist": "メールが存在しません"
+  }
+}

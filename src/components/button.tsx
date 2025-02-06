@@ -24,7 +24,7 @@ export function AicsButton(
 ) {
   return (
     <TouchableOpacity onPress={onPress} style={[button.base, button[type], button[mode]]}>
-      <Text style={[button[size], button[mode]]}>{text}</Text>
+      <Text style={[button.text_base, button[type], button[size], button[mode]]}>{text}</Text>
     </TouchableOpacity>
   );
 }

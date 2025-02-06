@@ -8,7 +8,7 @@
 import React, { useState } from 'react';
 import { ActivityIndicator, StyleSheet, Dimensions } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
-import { RouteStack } from '@/config';
+import { RouteStack } from '@/config/route';
 import { _loading } from '@/stores';
 
 
